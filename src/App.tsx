@@ -1,19 +1,21 @@
 import { FC } from "react";
 import "./App.css";
 import {
-  BarChart,
+  ApexBarChart,
+  ApexSemiDonut,
+  ApexStackedBarChart,
   GoogleChartsGauge,
   ReactGaugeChart,
-  SemiDonut,
 } from "./components";
 
 export const App: FC = () => {
   return (
     <div className="App">
-      <BarChart />
+      <ApexStackedBarChart />
+      <ApexBarChart />
       <GoogleChartsGauge />
       <ReactGaugeChart />
-      <SemiDonut />
+      <ApexSemiDonut />
     </div>
   );
 };

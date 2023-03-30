@@ -23,6 +23,9 @@ const options = {
 export const GoogleChartsGauge: FC = () => {
   return (
     <div>
+      <h2 style={{ textAlign: "left", paddingLeft: "5%" }}>
+        Gauge Chart - React Google Charts
+      </h2>
       <Chart
         chartType="Gauge"
         width="100%"

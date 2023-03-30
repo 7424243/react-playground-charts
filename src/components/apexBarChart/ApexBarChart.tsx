@@ -1,7 +1,7 @@
 import { FC } from "react";
 import ReactApexChart from "react-apexcharts";
 
-export const BarChart: FC = () => {
+export const ApexBarChart: FC = () => {
   const series = [
     {
       data: [400, 258, 448, 110, 540, 400, 690],
@@ -53,6 +53,9 @@ export const BarChart: FC = () => {
 
   return (
     <div>
+      <h2 style={{ textAlign: "left", paddingLeft: "5%" }}>
+        Bar Chart (horizontal) - ApexCharts
+      </h2>
       <ReactApexChart type="bar" series={series} options={options} />
     </div>
   );
