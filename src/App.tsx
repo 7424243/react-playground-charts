@@ -7,12 +7,14 @@ import {
   ApexSemiDonut,
   ApexStackedBarChart,
   GoogleChartsGauge,
+  GoogleChartsStackedBar,
   ReactGaugeChart,
 } from "./components";
 
 export const App: FC = () => {
   return (
     <div className="App">
+      <GoogleChartsStackedBar />
       <ApexBarWithMarkersChart />
       <ApexPlotAndColumn />
       <ApexStackedBarChart />

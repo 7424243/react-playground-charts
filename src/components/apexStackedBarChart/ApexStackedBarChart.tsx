@@ -29,7 +29,7 @@ export const ApexStackedBarChart: FC = () => {
         show: false,
       },
     },
-    colors: ["#64a15e", "#e7be18", "#c83739", "#000"],
+    colors: ["#64a15e", "#e7be18", "#c83739"],
     dataLabels: {
       enabled: false,
     },
