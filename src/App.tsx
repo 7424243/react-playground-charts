@@ -2,6 +2,7 @@ import { FC } from "react";
 import "./App.css";
 import {
   ApexBarChart,
+  ApexBarWithMarkersChart,
   ApexPlotAndColumn,
   ApexSemiDonut,
   ApexStackedBarChart,
@@ -12,6 +13,7 @@ import {
 export const App: FC = () => {
   return (
     <div className="App">
+      <ApexBarWithMarkersChart />
       <ApexPlotAndColumn />
       <ApexStackedBarChart />
       <ApexBarChart />
